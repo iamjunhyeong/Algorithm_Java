@@ -32,9 +32,8 @@ public class No2980 {
         int time = 0;
         int cur = 0;
         
-        while (dist < l) {
-        	
-        	
+        while (dist < l) { 
+    
         	// 신호등이 있는 경우
         	if (cur < n && dist == light[cur][0]) {
 	        	int	cur_light = (time % (light[cur][1] + light[cur][2])) - light[cur][1];
